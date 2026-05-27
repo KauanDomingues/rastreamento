@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+#root {
+  width: 100vw;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  border-inline: 1px solid var(--border);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: #f3f4f6;
+}
+
+.button-no-bg {
+  color: "white";
+  background: none;
+  border: "none";
+  color: "white";
+  font-size: "18px";
+}
+
+.button-no-bg:hover {
+  color: #e7e7e7;
+  cursor: hand;
+}
